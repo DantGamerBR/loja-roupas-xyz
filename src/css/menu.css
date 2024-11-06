@@ -10,11 +10,6 @@
     transition: 0.3s;
 }
 
-.cabecalho nav ul li a:hover {
-    color: #fff;
-    background-color: #FA0079;
-}
-
 /* RESPONSIVE */
 
 .cabecalho .menu {
@@ -22,6 +17,7 @@
     width: 60px;
     height: 60px;
     align-self: flex-end;
+    justify-self: flex-start;
 }
 
 .cabecalho nav label {

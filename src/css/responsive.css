@@ -19,7 +19,7 @@
         max-width: 400px;
     }
     
-    .roupas ul li {
+    .servicos ul li {
         padding-top: 25px;
     }
 
@@ -29,12 +29,17 @@
 }
 
 @media(max-width: 425px){
-    .cabecalho, .cabecalho nav ul, .rodape ul {
-        flex-direction: column;
+    .cabecalho h2 {
+        font-size: 1.8rem;
+        align-self: flex-start;
     }
 
-    .cabecalho a {
-        font-size: 2rem;
+    .cabecalho .menu {
+        transform: translateY(-9px);
+    }
+
+    .cabecalho, .cabecalho nav ul, .rodape ul {
+        flex-direction: column;
     }
 
     .cabecalho nav ul li {
@@ -47,7 +52,7 @@
         margin: 20px;
     }
 
-    .main, .roupas, .sobre{
+    .main, .servicos, .sobre{
         padding: 30px;
     }
 
